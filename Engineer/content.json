@@ -1,0 +1,60 @@
+﻿{
+  "Format": "1.5",
+  "Changes": [
+    {
+      "LogName": "Sprites", 
+      "Action": "Load",
+      "Target": "Characters/Engineer",
+      "FromFile": "assets/sprites.png",
+    },
+    {
+      "LogName": "Portraits",
+      "Action": "Load",
+      "Target": "Portraits/Engineer",
+      "FromFile": "assets/portraits.png",
+    },
+    {
+      "LogName": "Dialogue",
+      "Action": "Load",
+      "Target": "Characters/Dialogue/Engineer",
+      "FromFile": "assets/dialogue.json",
+    },
+    {
+      "LogName": "Marriage Dialogue",
+      "Action": "Load",
+      "Target": "Characters/Dialogue/MarriageDialogueEngineer",
+      "FromFile": "assets/marriageDialogue.json",
+    },
+    {
+      "LogName": "Schedule",
+      "Action": "Load",
+      "Target": "Characters/schedules/Engineer",
+      "FromFile": "assets/schedule.json",
+    },
+    {
+      "LogName": "NPC Dispositions",
+      "Action": "EditData",
+      "Target": "Data/NPCDispositions",
+      "Entries": {
+        "Engineer": "adult/rude/neutral/positive/male/datable//Town/summer 7//BusStop 19 4/The Engineer"
+      },
+    },
+    {
+      "LogName": "Gift tastes",
+      "Action": "EditData",
+      "Target": "Data/NPCGiftTastes",
+      "Entries": {
+        "Engineer": "You're giving this to me? This is amazing!/207 232 233 400/Thank you! This is a very interesting specimen./-5 -79 422/...What is this?/80 330/This is disgusting./2/That was very thoughtful of you./-4/ ",
+      },
+    },
+    {
+      "LogName": "Engagement Dialogue",
+      "Action": "EditData",
+      "Target": "Characters/EngagementDialogue",
+      "Entries": {
+         "Engineer0": "I can't believe I am about to be married!$h",
+         "Engineer1": "I hope I don't get cold feet",
+         },
+     },
+  ]
+}

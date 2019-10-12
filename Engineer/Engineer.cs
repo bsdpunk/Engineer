@@ -35,8 +35,8 @@ namespace Engineer
                 return;
 
             // print button presses to the console window
-            this.Monitor.Log($"{Game1.player.Name} pressed {e.Button}.");
-            Game1.addHUDMessage(new HUDMessage("Dusty has Modded This Game", 3));
+            // this.Monitor.Log($"{Game1.player.Name} pressed {e.Button}.");
+             Game1.addHUDMessage(new HUDMessage("Pam the mam", 2));
         }
     }
 }
